@@ -1,0 +1,31 @@
+{
+  "effdet_version": "0.4.1",
+  "timm_version": "1.0.9",
+  "architecture": "tf_efficientdet_d0",
+  "input_config": {
+    "input_size": [
+      3,
+      512,
+      512
+    ],
+    "interpolation": "bicubic",
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "fill_color": "mean"
+  },
+  "implementation_sha256": {
+    "factory.py": "a9efa3e48e9c6c64cd3f81763f9f3f84521ef55043d8ccc1221f9a2925e48e8d",
+    "bench.py": "05c30c97839ee1b0318384843b2380c458cc5ed7fd9448cc26f5604ebf3ef14e",
+    "anchors.py": "3eb129480b957d78e1ba747e1f7add3661188e9271dd4e3318e6dc1a92c5678f",
+    "config/model_config.py": "3ef4d96ebd23cf2e59a3fa819910a50a6f47f189587c0d0cd94c267556a41f3e",
+    "data/transforms.py": "ee7e4d0a963cee6a488f0e99d6f0bc40cf2b54c09260b573fc9848096a1b351b"
+  }
+}

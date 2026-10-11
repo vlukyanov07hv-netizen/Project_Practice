@@ -1,0 +1,16 @@
+﻿split,class_id,class,images,objects
+train,0,deburring,34,34
+train,1,inclusion,135,243
+train,2,rolled_pit,20,40
+train,3,silk_spot,470,572
+train,4,waist_folding,93,96
+val,0,deburring,6,6
+val,1,inclusion,41,84
+val,2,rolled_pit,1,4
+val,3,silk_spot,88,114
+val,4,waist_folding,25,25
+test,0,deburring,3,3
+test,1,inclusion,35,74
+test,2,rolled_pit,7,16
+test,3,silk_spot,91,107
+test,4,waist_folding,26,26

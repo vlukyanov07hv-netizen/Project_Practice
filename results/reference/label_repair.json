@@ -1,0 +1,11 @@
+{
+  "status": "corrected",
+  "old_line": "0 0.562581 0.107807 0.256845 0.223048",
+  "new_line": "0 0.562581 0.109665 0.256845 0.219331",
+  "reason": "Original XML ymin=-1 clipped to image boundary ymin=0; other pixel coordinates preserved.",
+  "old_sha256": "ad44e4bf9998632a2bbc9d3ad613e680bfccb869d9e0ceeaa08209fbc073e8df",
+  "new_sha256": "b7b4a66bd79ff6af7f9904993c227a9abf2061c6f62b7ecc620b3a411eb7d36b",
+  "test_split_changed": false,
+  "original_xml_changed": false,
+  "training_note": "Existing checkpoints were trained before this one-pixel boundary repair."
+}

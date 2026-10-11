@@ -1,0 +1,9 @@
+Mode: eval
+Model: efficientdet
+Split: test
+Checkpoint SHA256: f1cab0db3033e86bb3d8d530e0a7e9249cda1aa47203502534fdcc9d684efff1
+mAP50: 0.20779799
+mAP50-95: 0.07308419
+Precision: 0.32575758
+Recall: 0.19026549
+F1: 0.24022346

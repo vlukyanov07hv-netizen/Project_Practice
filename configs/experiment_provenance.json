@@ -1,0 +1,143 @@
+{
+  "classes": [
+    "deburring",
+    "inclusion",
+    "rolled_pit",
+    "silk_spot",
+    "waist_folding"
+  ],
+  "dataset": "c5data2",
+  "dataset_url": "https://www.kaggle.com/datasets/niclinn/c5data2",
+  "existing_runs": {
+    "yolo_n": {
+      "where": "local RTX 3050",
+      "epochs": 50,
+      "selection": "Ultralytics best.pt on val"
+    },
+    "yolo_s": {
+      "where": "local RTX 3050",
+      "epochs": 50,
+      "selection": "Ultralytics best.pt on val"
+    },
+    "yolo_aug": {
+      "where": "local RTX 3050",
+      "epochs": 50,
+      "changes": "mixup=.1, degrees=10; base also has native augmentation"
+    },
+    "faster_rcnn": {
+      "where": "Google Colab",
+      "epochs": 10,
+      "batch": 4,
+      "initialization": "COCO V1",
+      "optimizer": "SGD",
+      "lr": 0.005,
+      "momentum": 0.9,
+      "weight_decay": 0.0005,
+      "selection": "final epoch",
+      "seed_note": "torch/NumPy seeded once to 42 in original notebook"
+    },
+    "ssd": {
+      "where": "Google Colab",
+      "epochs": 10,
+      "batch": 4,
+      "initialization": "scratch; backbone also scratch",
+      "optimizer": "AdamW",
+      "lr": 0.0005,
+      "weight_decay": 0.0001,
+      "clip": 1.0,
+      "selection": "final epoch",
+      "seed_note": "RNG continued after Faster R-CNN; no separate reset before SSD",
+      "original_loop_note": "Original code skips nonfinite batches; no per-batch skip log was saved"
+    },
+    "detr": {
+      "where": "local RTX 3050",
+      "epochs": 10,
+      "best_epoch": 8,
+      "batch": 1,
+      "gradient_accumulation": 4,
+      "initialization": "verified COCO; fresh 5-class classifier",
+      "selection": "highest val mAP50_95",
+      "seed": 42,
+      "invalid_old_colab_checkpoint_used": false
+    },
+    "efficientdet": {
+      "where": "local Windows RTX 3050",
+      "epochs": 10,
+      "best_epoch": 10,
+      "seed": 42,
+      "initialization": "verified COCO -> reset entire class_net to five classes",
+      "training": {
+        "epochs": 10,
+        "batch": 1,
+        "gradient_accumulation": 4,
+        "optimizer": "AdamW",
+        "lr": 0.0003,
+        "lr_backbone": 3e-05,
+        "weight_decay": 0.0001,
+        "clip_grad_norm": 1.0,
+        "lr_decay_start_epoch": 8,
+        "lr_decay_factor": 0.1,
+        "horizontal_flip_probability": 0.5,
+        "brightness_range": [
+          0.8,
+          1.2
+        ],
+        "contrast_range": [
+          0.8,
+          1.2
+        ],
+        "batchnorm": "native_train_mode_batch_1",
+        "amp": false,
+        "workers": 0
+      },
+      "selection": "maximum validation mAP50_95; first epoch on exact tie",
+      "validation_mAP50_95": 0.07623556552904805,
+      "checkpoint": "results/efficientdet_train_20261010_141427_625914/weights/best.pth",
+      "checkpoint_sha256": "f1cab0db3033e86bb3d8d530e0a7e9249cda1aa47203502534fdcc9d684efff1",
+      "test_used_for_training": false,
+      "test_used_for_checkpoint_selection": false,
+      "data_geometry": "original pixel XYXY -> resized pixel YXYX; classes 0..4 -> 1..5",
+      "prediction_cleanup": "clamp all four coordinates; remove zero-area predictions; export confidence >= .001"
+    }
+  },
+  "historical_label_repair": {
+    "status": "corrected",
+    "old_line": "0 0.562581 0.107807 0.256845 0.223048",
+    "new_line": "0 0.562581 0.109665 0.256845 0.219331",
+    "reason": "Original XML ymin=-1 clipped to image boundary ymin=0; other pixel coordinates preserved.",
+    "old_sha256": "ad44e4bf9998632a2bbc9d3ad613e680bfccb869d9e0ceeaa08209fbc073e8df",
+    "new_sha256": "b7b4a66bd79ff6af7f9904993c227a9abf2061c6f62b7ecc620b3a411eb7d36b",
+    "test_split_changed": false,
+    "original_xml_changed": false,
+    "training_note": "YOLO, Faster R-CNN and SSD checkpoints predate the one-pixel boundary repair; the current repaired DETR was trained afterward. Test stayed unchanged. EfficientDet also used the repaired training data."
+  },
+  "new_training_defaults": "Fresh runs use fixed seed per model; native PyTorch uses batch=1, accumulation=4. These are not rewritten historical configurations.",
+  "comparison_limits": [
+    "Five architecture families; seven experiments; YOLO n/s are size variants.",
+    "Different training durations, initialization and hardware; this is not an equal-compute architecture ranking.",
+    "Rare-class val/test support is small; near duplicates were not checked."
+  ],
+  "metric_protocol": "Common preserved scorer; original-pixel XYXY; AP101 at IoU .5:.95; micro P/R/F1 at conf=.25, IoU=.5",
+  "reference_evaluation_revision": {
+    "version": "gpu-v1.1",
+    "model": "ssd",
+    "checkpoint_sha256": "647d27170b9e118ce648c00717f2bcaa545b3774cd687abd4da58e8da5320149",
+    "previous_metrics": "results/reference/ssd/metrics_legacy_gpu.json",
+    "current_metrics": "results/reference/ssd/metrics.json",
+    "evidence": "results/reference/ssd/runtime_validation.json",
+    "reason": "cuDNN deterministic flag changed numeric predictions; both historic and current exports exactly reproduced; current export repeated exactly.",
+    "reference_backend": {
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "cudnn_enabled": true,
+      "cudnn_allow_tf32": true,
+      "cuda_matmul_allow_tf32": false,
+      "float32_matmul_precision": "highest",
+      "deterministic_algorithms": false
+    },
+    "training_performed": false,
+    "test_used_for_checkpoint_or_hyperparameter_selection": false,
+    "decision_rule": "Keep the explicit existing pipeline settings, independently repeat them, then update only the proven SSD reference. No choice by best test mAP.",
+    "comparison_note": "Five model references unchanged; this is reevaluation of SSD, not a new training experiment."
+  }
+}

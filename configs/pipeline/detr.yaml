@@ -1,0 +1,43 @@
+model: detr
+architecture: facebook/detr-resnet-50
+classes:
+- deburring
+- inclusion
+- rolled_pit
+- silk_spot
+- waist_folding
+seed: 42
+data: data/raw
+verify_reference_dataset: true
+checkpoint: results/detr_fixed_20261005_202542_023635/best
+checkpoint_sha256: ac015252b9aaeae0bc6b850da01ae6c55da4c39d2a35e3b3aff55a82421db7a9
+training:
+  epochs: 10
+  batch: 1
+  gradient_accumulation: 4
+  optimizer: AdamW
+  lr: 0.0001
+  lr_backbone: 1.0e-05
+  weight_decay: 0.0001
+  clip_grad_norm: 0.1
+  size:
+    shortest_edge: 512
+    longest_edge: 1024
+inference:
+  min_confidence: 0.001
+  nms_iou: null
+  max_detections: 100
+  batch: 1
+  resize: shortest_edge=512,longest_edge=1024
+  precision: float32
+metadata_sha256:
+  config.json: a37a028889472cec882f03684a5af91e4984a29827024147f36074843061b7fb
+  preprocessor_config.json: c0da816333c0fc63a3799bd3f2f0179baf014520c5e47127423a16ea5ffcd6cd
+runtime_backend:
+  cudnn_deterministic: true
+  cudnn_benchmark: false
+  cudnn_enabled: true
+  cudnn_allow_tf32: true
+  cuda_matmul_allow_tf32: false
+  float32_matmul_precision: highest
+  deterministic_algorithms: false

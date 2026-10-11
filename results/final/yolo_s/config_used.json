@@ -1,0 +1,46 @@
+{
+  "model": "yolo_s",
+  "architecture": "yolov8s.pt",
+  "classes": [
+    "deburring",
+    "inclusion",
+    "rolled_pit",
+    "silk_spot",
+    "waist_folding"
+  ],
+  "seed": 42,
+  "data": "data/raw",
+  "verify_reference_dataset": true,
+  "checkpoint": "results/yolo_small/weights/best.pt",
+  "checkpoint_sha256": "97374540c49c5e68e51a493af0e4f9e8a19cab564286c1c72144fa9b7f7a9293",
+  "training": {
+    "epochs": 50,
+    "batch": 16,
+    "ultralytics_args": {
+      "mosaic": 1.0,
+      "mixup": 0.0,
+      "degrees": 0.0,
+      "hsv_h": 0.015,
+      "hsv_s": 0.7,
+      "hsv_v": 0.4,
+      "fliplr": 0.5
+    }
+  },
+  "inference": {
+    "min_confidence": 0.001,
+    "nms_iou": 0.7,
+    "max_detections": 300,
+    "batch": 4,
+    "resize": "640x640 letterbox; rect=False",
+    "precision": "float32"
+  },
+  "runtime_backend": {
+    "cudnn_deterministic": true,
+    "cudnn_benchmark": false,
+    "cudnn_enabled": true,
+    "cudnn_allow_tf32": true,
+    "cuda_matmul_allow_tf32": false,
+    "float32_matmul_precision": "highest",
+    "deterministic_algorithms": false
+  }
+}

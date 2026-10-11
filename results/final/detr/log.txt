@@ -1,0 +1,9 @@
+Mode: eval
+Model: detr
+Split: test
+Checkpoint SHA256: ac015252b9aaeae0bc6b850da01ae6c55da4c39d2a35e3b3aff55a82421db7a9
+mAP50: 0.06537394
+mAP50-95: 0.02872602
+Precision: 0.05446118
+Recall: 0.20796460
+F1: 0.08631772

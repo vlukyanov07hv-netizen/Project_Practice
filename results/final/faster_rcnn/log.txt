@@ -1,0 +1,9 @@
+Mode: eval
+Model: faster_rcnn
+Split: test
+Checkpoint SHA256: 0d7c90200d1bdb7ae618a5c9c0801d0921ce7f0d672c0e1cd9dfb3992bac96b7
+mAP50: 0.48398277
+mAP50-95: 0.20602997
+Precision: 0.19460727
+Recall: 0.73451327
+F1: 0.30769231

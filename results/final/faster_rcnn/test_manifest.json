@@ -1,0 +1,1298 @@
+[
+  {
+    "file": "debur_img_012.jpg",
+    "image_sha256": "4c6dc8f26b4b54e02cac40036daf68992138c2fb7c97ed075d9defec155e01c5",
+    "label_sha256": "18c4ef4fc66b489d86bae7a15a956b5f20a02a836b162c702878f2a93f167650",
+    "width": 384,
+    "height": 700,
+    "objects": 1
+  },
+  {
+    "file": "debur_img_014.png",
+    "image_sha256": "47d47508f0b8bb0115cac645b7dc7b4b1e74b8aa08c65f4184464d28fff3a039",
+    "label_sha256": "f419485443861abb6f29b98dc7965c8f87f458b4796dd9468510293e3bb2290d",
+    "width": 2817,
+    "height": 1117,
+    "objects": 1
+  },
+  {
+    "file": "debur_img_033.jpg",
+    "image_sha256": "6bb6ec32344ed460add1f4831b767f8f065e296a3cc461bdb1856e7c3ac20d65",
+    "label_sha256": "c36da5c0e7a6cfef5ff3a7249f100ad0387b0a68a689c8ef68e14c395cdd4a9a",
+    "width": 373,
+    "height": 325,
+    "objects": 1
+  },
+  {
+    "file": "img_01_3436815300_00477.jpg",
+    "image_sha256": "b1c22c962086456cbfabc7cbf80f2e5e8338da2d7e7727dc40181daf4486f6ac",
+    "label_sha256": "8ed3696375d1824c844709dae69f675f58f90c21e37f365ad885f79197fe42d9",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_01_3436815300_00478.jpg",
+    "image_sha256": "f8bc3df8e83f80fdc487154bc025fe78fc2a2a4eaf19895b47a73f90963eac18",
+    "label_sha256": "8a65de873af72efeb8fc63fd95d81d23d68798b6606a972fe2cac6bcd93652ac",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_01_425005700_00213.jpg",
+    "image_sha256": "a276161f131ac262a4efee2ae6b25944c68f1fe03ec2c813ccb7f0f01b69273a",
+    "label_sha256": "72c8a91078a8a32a220443a629d9f92d714bc03479900be16a2d9cf531864cf4",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_01_425005700_00239.jpg",
+    "image_sha256": "a0aa2f18b591730bcfb9634e5b2f5452c8108a9630ade690abf82ba294ba0858",
+    "label_sha256": "b9c98cbf143e2c7e97d99f7c62ce4702c052e130b3ff0136a04c6fd29c7bf042",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_01_425005700_00240.jpg",
+    "image_sha256": "219d6c8788f263c36b5ef70807b69a8cdba2a3309fa7e520dcbc0e65f623f43f",
+    "label_sha256": "b0ada6dbaa19b6740a6bc11e80ce520f76e9e48b59a0a6de75cdb3cad648a42a",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_01_425005700_00253.jpg",
+    "image_sha256": "9a9aa1ad7a8116cce0776673c4cad054fd59c79c89ac5295914d8304ccfca286",
+    "label_sha256": "f427b2b5aa8450b421bb1c7adbca5aed91bff610e9f64cc53e7104779a053efb",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_01_425005700_00267.jpg",
+    "image_sha256": "6d252f8d93d4a61842180d6f45f0d667ceed88b749fcc6c08b228ee0b720fb79",
+    "label_sha256": "eefffba95ad4b4d78bf7ec9c258349a72cc6ad4ec86cd3ba863164a647be12d7",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_01_425005700_00326.jpg",
+    "image_sha256": "637a45b4ab6b8cac195571cf215268e0da72c8b0fa8f1a4280f194929b9db85d",
+    "label_sha256": "925e6177290d4061c1012dcf81dc89040192b9230f54bc3ef3404d899e359a84",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_01_425005700_00342.jpg",
+    "image_sha256": "27b856e97cf5ac88555e477bdbb08d04b3ecc918a81429e30f74141ab559a0b0",
+    "label_sha256": "1131ec340364fb7ac1279b641f993f5ed337d7ccffeb2b2e1acd1ce70976db63",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_01_425005700_00362.jpg",
+    "image_sha256": "0c1e52d765cdaa63858336e3e7af28fc98cbf2267182c073363c4e127ee0ccc2",
+    "label_sha256": "ce76497498004ca7444029320e77fb049792fb7237f606e9e590caf5fde6d8a8",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_01_425005700_00381.jpg",
+    "image_sha256": "5d55270a850dc64dbadce66a5e4153b89be21faac5552e1e81db01896ab8dec7",
+    "label_sha256": "665cd6f528389e5b547a26227d0b15b33bfe22256caf2ccd926fb018e2457596",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_01_425005700_00409.jpg",
+    "image_sha256": "3e831a1e60a68dca24b022600cdf8eea7a1e20d7b713787c479633872fcc8169",
+    "label_sha256": "4a2d50e62df5bd87ab02661d0e88ec98e8637aedfa1648b0455360e3a938ed69",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_01_425005700_00419.jpg",
+    "image_sha256": "6f3bb2d5ae6d32983a8df3e5f87d41aeb23e38b7d378539931017e83c08a1ba6",
+    "label_sha256": "8029d68d5e057c0779f9e76fb45c0c9ff82b674cfae368f937b943376073ceeb",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_01_425005700_00441.jpg",
+    "image_sha256": "40716b90fa266b1f75e24ffbc63877af694871fa31367bb3885ca8be2fa408db",
+    "label_sha256": "ef76ebc0664fd574c492b5e3c5b62ad6d06ebf69ac57c2ea98eba5e3f7257cbd",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_01_425005700_00442.jpg",
+    "image_sha256": "989874200d859a93685d0f77539f6e056317185ebc35f3b46c84c764bcc41993",
+    "label_sha256": "7067d46709209dce730c2adc3f7be40aea7f3b3b4fc6bd287c61e3852853211c",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_01_425005700_00468.jpg",
+    "image_sha256": "0bf58227b58b25c4df5ccb411344ceb57d4221391cf7acd9c98f8ac0a39cedda",
+    "label_sha256": "a865b8aff596d8a0a08a1374ed7309c6c0c182b6476c67a1081a675d230714d9",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_01_425005700_00470.jpg",
+    "image_sha256": "ca55c9b1dfc45f0ad128b2cc85e90a2b24f771cb4b01a926305ffa110157eeaa",
+    "label_sha256": "b5faa2416c18073fa3bb48c89d8e65f2056637dca9a9498a66955cf7ed530bda",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_01_425005700_00471.jpg",
+    "image_sha256": "a656f2c70377664d5c4ee2e932a4f7e636d2ea0569d021454b55e30b28f36b22",
+    "label_sha256": "05d0fd7cf792d5d8bcfac7790644779e69579479361f857a7af4890d034b3f20",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_01_425005700_00485.jpg",
+    "image_sha256": "530da91216b79f1624560c3749c14f1b31df12fa0e081c8c4321942bb621f8ee",
+    "label_sha256": "d76d4ec52d53d5ce8a6fa346dcbc5c8562bde7fce31c2624b1d5c6cf35d00d66",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_01_4406743300_00160.jpg",
+    "image_sha256": "3e0f15b80e9a34d3c0b6fb2da64890856cbd03ff22281dc8af1e3ad784e577c2",
+    "label_sha256": "a2741e532750d33b4383a3793e77c53a1ee2cac5b8b9d558d78b4c29a6992a92",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_01_4406743300_00215.jpg",
+    "image_sha256": "853f1da0fbb7b744fe135883f7e3c21c9a8e0a48ce6d53ffb646b26043b90d0f",
+    "label_sha256": "7e20f612a7ce7c9d454ebe34d71bd71771055f220c25912e6a49b2aa73703c7e",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_01_4406743300_00223.jpg",
+    "image_sha256": "b5a5cdea9fe25530cff0d8bfe80c403fb9813d209a64a2258fd9c8d80b850ca5",
+    "label_sha256": "016f0490371564e10ceef1cc665e5c75f231b1684e3105c16ddee348031a53a6",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_01_4406743300_00649.jpg",
+    "image_sha256": "d1a1569615cf374b88e868a3896902f2f244c2d135a2c8b339b8df9f7258bce4",
+    "label_sha256": "038808b8a6ba8dfd7e177674d266c993e319b77fd7cc3af654f7df9fdc09addd",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_01_4406743300_00804.jpg",
+    "image_sha256": "82f4cd3b44bf85eaad560c262da293a288cef0eb05f3fe2cf605af2ab8218736",
+    "label_sha256": "9b870746022bce21fb6233359f8eff86853af5835a8585fd08007a2b49dba797",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_01_SIS001522_00045.jpg",
+    "image_sha256": "c3629054dcc42507e5b100e59464d943999f77a94e43f1ae3af3235e37bb43bf",
+    "label_sha256": "faded7b12fb8d84f457d26da495875ef2104d3573c14d3e4d891d028b1f6a134",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_02_3402618000_00007.jpg",
+    "image_sha256": "f49734f8d265c18796dee0f70c674b7408ce458d725ee60c891338b5ad94fd39",
+    "label_sha256": "49d2ec86ebf1fc9c17f3d77e39569e8d081b73dea7d5422ea114d54cc67b3279",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_02_3436786500_00072.jpg",
+    "image_sha256": "997542f60567c28325b3dc7a6c6fe69b47bd3fcfcba95236c10ba5f1eb7fea51",
+    "label_sha256": "27fae6dd6d86a059a5c468db45c5c62b930dcbc9664e720d22b4f939f16342a1",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_02_3436786500_00138.jpg",
+    "image_sha256": "4aab86b4ea01b166c6562da7fb9d0dcc4f5833d00d24317e14a3bd878169beb0",
+    "label_sha256": "2a4eb3b583a37d06810765f60736f754ffb0f57ee3c18077bb0065913eb3f7fc",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_02_3436786500_00142.jpg",
+    "image_sha256": "e2180324f78f03e36a62238b53b304fd877f22cc32708887206170017b369893",
+    "label_sha256": "ddc302f9416aada259e0ea4b454501ba8efd6f6a1e4ca14859971caf7e168d37",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_02_3436816100_00147.jpg",
+    "image_sha256": "97b1ec05c24c4155fabd3f70eb3c8baf8b78683774ee12c40582e6072cb4e897",
+    "label_sha256": "61167d34d9439ac63d98667ab8ab0a5f76d31ed2b4d43ce8277b7eed221b3210",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_02_3436816100_00152.jpg",
+    "image_sha256": "8b9af2d6107bf3be81722d50c3f869d570c304bf35ee138fb9b368c6c03cf9ac",
+    "label_sha256": "856c5d2799a677fd428d4191ac650b3a0201b41f0f3ba475db14ffc7f4b0e360",
+    "width": 2048,
+    "height": 1000,
+    "objects": 2
+  },
+  {
+    "file": "img_02_424799300_00850.jpg",
+    "image_sha256": "672b13f2c69bf5ac975545bb8af5307300997e78cc28338eb94b4229e21977ff",
+    "label_sha256": "5985b7bf4ab95836df5add6176ede35f4ee1d2378054198e8510be4525a5031e",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_02_425243200_00115.jpg",
+    "image_sha256": "8c63bce9b3f7b82a8c7f0bf520fb6f2e52dd43e8edc91ba3907a3fb1a7ba9863",
+    "label_sha256": "ec17bca39fa689d64644e007578385155515e89bfd034ab238686fcbcbae9c79",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_02_425243200_00561.jpg",
+    "image_sha256": "9710b9ed736ea33519feab19212c9a3d2d387f842d07fd27a52ea45e2394d7cf",
+    "label_sha256": "f51ebfb607c29122f7a6a4345a4238c911f3b5b73ac1f1cac166866b67dc6bd5",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_02_425243400_00052.jpg",
+    "image_sha256": "b6acdf614c116ec0dc24bbfb1948ae80f1f2cb177d18aee8fb5b3a9059458926",
+    "label_sha256": "d8fa651fa1572fe108a06c52328a7e0f1d3ce248423d491a1ff88ce88101bdff",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_02_425383400_00358.jpg",
+    "image_sha256": "87f5cc6794d5583aab065189b70aa76953ed64ab4c2f7975ff89ebcadcac6101",
+    "label_sha256": "893959a2ba8d57748ea91089daba788f0606b870b0d31fe45d7c2d1f573e7a61",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_02_425392300_00834.jpg",
+    "image_sha256": "95c89d6e5a3990ca448bc469778cbf067fdabade6f544f5f8930239f54d3af12",
+    "label_sha256": "dcd31f8399d577b752cf6b08a79df628ddfbed4172b84593191aa6591cf6d500",
+    "width": 2048,
+    "height": 1000,
+    "objects": 2
+  },
+  {
+    "file": "img_02_425392400_00020.jpg",
+    "image_sha256": "3814c203666722adc7dc433cc17d0c83342fdd017d8ba9fa479ddd7f1d42a51f",
+    "label_sha256": "d6f288c9c0f8c121530dec433ae8d74d6d22532e19a42ae0bee199ba610b0d07",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_02_425503000_00020.jpg",
+    "image_sha256": "aaf462dda40d8d4851f8c34f9b5c04a0389d15ae3af51c18af75b424844b06ad",
+    "label_sha256": "714f3f14cc9c94c4f51df9842564a675ccf3dc3867d88d8d362d720238ebdeae",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_02_425505100_00022.jpg",
+    "image_sha256": "7c7e511fed8729443c88bce8c81d8754e1d5a35ca8efc3b2ebd17caa26c2173c",
+    "label_sha256": "d6724eb237564ad90b25116e9f4c282207619373e30408de3cc4e466f19bc71f",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_02_431854300_00002.jpg",
+    "image_sha256": "d5ccd0003e7120f7a651b9ed2f8531bc828d8179918410588d18de15d12a7710",
+    "label_sha256": "9de2dc95452ef52a051035b70b648efa78b3684c17302b688c36bba3322caba2",
+    "width": 2048,
+    "height": 1000,
+    "objects": 6
+  },
+  {
+    "file": "img_02_436068500_00002.jpg",
+    "image_sha256": "9a6c6d0b6e34a961973b3bcfc06cb704006fb53d375313281082aedcb2924e67",
+    "label_sha256": "94240379b0e7f2e477ad1ab2f35319ed6d04a162011ef6d6d4df00ff265ca63b",
+    "width": 2048,
+    "height": 1000,
+    "objects": 3
+  },
+  {
+    "file": "img_02_436153600_00671.jpg",
+    "image_sha256": "5e4329dd59ddae0654584448e2655c983539bbe4e2e75298c5b2317ec99093b8",
+    "label_sha256": "211207fc67c2e7698f30d1713929b87feeb6a471b4fc7880d6cfe1ae988896cb",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_02_436153600_00684.jpg",
+    "image_sha256": "439809bc225da5e2b1b6693b2c83767dad4738a0b9ce0f83ff4b20abd93903eb",
+    "label_sha256": "14a8f1af33c9b7fdd87274c2ef4981453955e7fc967bcebf9baede52b299e99a",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_02_436153600_00691.jpg",
+    "image_sha256": "57fe342f7f7502ed2325ac56110e6924b5f103164599f57a5999ceb659497254",
+    "label_sha256": "0bd9b26846c1d67279ec5d1c38a7c5704a47e4be8e0fdde8e8dbd396fdbc4b14",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_02_436153600_00708.jpg",
+    "image_sha256": "586dfdea653588987e0f1a9c730fc4ad0fffd923f8b601485ba5acf342802505",
+    "label_sha256": "acced826cd1165ffd0d43bf4728dad48160f4a99a9cb820a530b8c4c5de7f3e5",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_02_4404612700_00054.jpg",
+    "image_sha256": "03af98b9bb9de637fb009de0b087247aaad34ca0af00b6115178ac7012ea11b7",
+    "label_sha256": "a6b68a75c881558b3139d934aa7851c72bf2d4f57b44f86a6777b6dafe1440cf",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_02_SIS001491_00280.jpg",
+    "image_sha256": "da80a3386f01e469583ed1de838221187afa7189b4893f24634a38a1be639cca",
+    "label_sha256": "3054ae7b029c21417982cc4ac1c2aa7eb77bb7c0ccb481fea32ab1dfe35857c6",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_02_SIS001522_00026.jpg",
+    "image_sha256": "f64dae1e393dfcf69a7983400431c16f2a2a9cd66d75020c398a66598e1388f7",
+    "label_sha256": "8035b8f3738913b49df1540a4405016ca4bbb9b77a56472022f54fb8815d2efc",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_02_SIS001522_00036.jpg",
+    "image_sha256": "a6f614c9ae532c8dbae8656516217eb1b2b1a31e99c10f83567f45f77ebefe1a",
+    "label_sha256": "c08a426ff060eb135f132160cddfa757f09af6a4884ef31cee94a49db32cd93a",
+    "width": 2048,
+    "height": 1000,
+    "objects": 2
+  },
+  {
+    "file": "img_02_SIS001522_00568.jpg",
+    "image_sha256": "91aa7906d85fc689ad507293fa228aa4bc82019f0a64c85a5349c4eedc460371",
+    "label_sha256": "1128e7a1e6b3799b6e49e529057550b6759c1cd6d3b390aa7fd1d812c7a616fe",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_03_3402617400_00898.jpg",
+    "image_sha256": "3ba790f9e9d16d61fa411bed06086ed04addbde035ac9aa6428e968a6342010c",
+    "label_sha256": "f3d99f0f8958b403d9e99e51e70e20611b67614d39268d105e40ed69090d9c0a",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_03_3402617700_00745.jpg",
+    "image_sha256": "39e1d0e6edd7a7f1ba045df9881f66176a78c881e0f34aab198465298b584159",
+    "label_sha256": "8ee860659e707e57ddb6488384e2dc94c1f93e812eb533a8e4027b2465fe9937",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_03_3402618000_00007.jpg",
+    "image_sha256": "43ebb4a285a3cd132e3eb6c22c655a4e4c3693c060900f1a748e72d0ae34647a",
+    "label_sha256": "20b8af28ebfded5faafea50bc135735d0fcdab669033e51a2e94bd7ec926224f",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_03_3402618000_00013.jpg",
+    "image_sha256": "b764bd324d1432b1071593e4bb3256015cb8668087b1256dcc9e8be60e94eb62",
+    "label_sha256": "683cd4c989513c64c03b2b6a316b8a9f787a07981162bd9a041441a3155146bc",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_03_425501800_01190.jpg",
+    "image_sha256": "b2a8897ea53cba3dde0a87aeb1e99d6442ffffebf4fab2e30c7b68c3ab38bdf9",
+    "label_sha256": "adbd70afd1128f1052de2cec9ef7ba638f321a3d30ed69d63c053303138a527f",
+    "width": 2048,
+    "height": 1000,
+    "objects": 2
+  },
+  {
+    "file": "img_03_425501800_01220.jpg",
+    "image_sha256": "c6eb869af970fa2165a3663aa6fac8cb52ccf75e8fdf0f255d0ef94a948d55d5",
+    "label_sha256": "554954ad528d7454d92c2b948aef17bc90b414e73a0749bdc9affca1356a7776",
+    "width": 2048,
+    "height": 1000,
+    "objects": 2
+  },
+  {
+    "file": "img_03_425505400_01015.jpg",
+    "image_sha256": "2fe3888a4825abedf33f7a9bce21693c20b11ec9274bdf05f99208af27d6c3f7",
+    "label_sha256": "ce01c67cedf37f798cfe24792b0086ad0d23d5658dd8c39db8e8e6f63d7c3128",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_03_425508300_00320.jpg",
+    "image_sha256": "7194dcfe332b8d42bf9415f04605fc18d6aabc178a886f34695d118a650ca10e",
+    "label_sha256": "5759a7438868288818cb8959ff8d89fe5f0466f2f273aa71c6bf0de55b9f36d1",
+    "width": 2048,
+    "height": 1000,
+    "objects": 2
+  },
+  {
+    "file": "img_03_436150300_00317.jpg",
+    "image_sha256": "c32e8facc756a8bbe1efcc2c5f58733631df397d8e81412393a417e8dd9e3723",
+    "label_sha256": "9de36da6858304ce53c6fa2b209ed7e3f82c231417a232ab8cef3dc44cbeaa62",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_03_436150300_00318.jpg",
+    "image_sha256": "1a395afa043b05d0aed28878260e18629a0d5978bc29e0352fb7407d552e68f1",
+    "label_sha256": "9017c03bdcba9f63f77f90c50416236ddcc91f0c67ee558e5a0e346ef6738bb8",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_03_436150300_00329.jpg",
+    "image_sha256": "f79abf24994fe71308b4be891a8b1a72f3de9b4050a24007b0f556886b070ae1",
+    "label_sha256": "5e818c646664fea2a5d539231c1eb306d757a4f93a3a1b7f92505443a1cbfb9f",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_03_436152900_00524.jpg",
+    "image_sha256": "8b1d819fb8f5159001f70cdc3fabfd498b7b3bdc602a69794bd6b149081b70bd",
+    "label_sha256": "49b945d0270618a8441fae3a168af9fd6a131a177fb23ba8f75b06883e2bb6ea",
+    "width": 2048,
+    "height": 1000,
+    "objects": 4
+  },
+  {
+    "file": "img_03_436152900_00593.jpg",
+    "image_sha256": "0c644f0761a50128c360f76eee1f678fd8b99f772e74ffd5a316581e4539f45f",
+    "label_sha256": "ddc6bc7c29164a70dc275ba24123b6228a3ffbf1ddea480855f848814073519b",
+    "width": 2048,
+    "height": 1000,
+    "objects": 3
+  },
+  {
+    "file": "img_03_436184600_00776.jpg",
+    "image_sha256": "ef48590add2a6bd569f36c5aeeefb195cbd02a7df408d4de9b0e3bb7f93d6c5c",
+    "label_sha256": "be465df155b30104727772d9ba0cab89ab6e54f28a84090e3867fd59602a2686",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_03_436184600_00778.jpg",
+    "image_sha256": "f6a0cc73fa256779dfbae9b3f5bbcf46faa7daa71b588c924f95781b60a03c5b",
+    "label_sha256": "a13b186990e82c7e2bb6fa165614f70603f0861567d9dfa4bf0e193ecc38b993",
+    "width": 2048,
+    "height": 1000,
+    "objects": 3
+  },
+  {
+    "file": "img_03_436184600_00782.jpg",
+    "image_sha256": "5be5a09b2b4172d9cb39a147ee62f62caf58431ff5b040ab7587d7c855c6b5ee",
+    "label_sha256": "84d4980437c0568c084b2865bf17715cbd84a083fe93f29219811083066b28cf",
+    "width": 2048,
+    "height": 1000,
+    "objects": 2
+  },
+  {
+    "file": "img_03_4402329000_00001.jpg",
+    "image_sha256": "f76931834fb23e051f10dad761817c81970eaf7ccc11dd493a95da415cc8e00d",
+    "label_sha256": "8f21e9e9f8ad3e17011a88591234b95a4f4087f6bac034cbd3626a65ab3b8c02",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_03_4402724500_01238.jpg",
+    "image_sha256": "405df587e7534e25edecd460f79feabd3f8a439ffe1dffaef206b41d1f155565",
+    "label_sha256": "595bf98634004c1dcdfcf39ffce968f4d878586b6b4b37ed5886798685b5f2f1",
+    "width": 2048,
+    "height": 1000,
+    "objects": 2
+  },
+  {
+    "file": "img_03_4402724500_01243.jpg",
+    "image_sha256": "0654fba4c2420eca5ce0fe8add3b80ad859590460b1d1770aa42d604d6c87b1f",
+    "label_sha256": "16fabba607e67795917ff589a963f2f945991b3baa2d77aea73aae675cae6985",
+    "width": 2048,
+    "height": 1000,
+    "objects": 2
+  },
+  {
+    "file": "img_03_4402724500_01245.jpg",
+    "image_sha256": "86c522b65a684b0a49119c44f3ee02e14dd9d9a66d83241981651cd05d90bb66",
+    "label_sha256": "23c9816f7f4a296137c68ade3f04ce12ab8aaf728344b9eb23cde90ff0b719a5",
+    "width": 2048,
+    "height": 1000,
+    "objects": 3
+  },
+  {
+    "file": "img_03_4403715000_00003.jpg",
+    "image_sha256": "44d3fa4a2729ac65a33454f666f0af765be12360f93ecc7024d74ee0eb6afd29",
+    "label_sha256": "6777246b347a3cb8866b4ee9458f0c84e8d9652312fe52f3905a2ab35d64e838",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_03_4404374300_00045.jpg",
+    "image_sha256": "64d00f66b8dc6722c367e92eeb612b314acd0b011d26c2923822fbba83a5936e",
+    "label_sha256": "d3355eb8e07b0375ed2ba1c7bb26fed896395c30cfa0f8c2d523527cff341135",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_03_4404580600_00527.jpg",
+    "image_sha256": "5f8f52af7482cfe3bbb8ed6a381689274b2ce919fb1e84366fa4ac1f03ca66a1",
+    "label_sha256": "f5a3995c0215bde7b01dd1d5d1a7befd69520de2e3ab240526bc4ba3f4080212",
+    "width": 2048,
+    "height": 1000,
+    "objects": 2
+  },
+  {
+    "file": "img_03_SIS001533_00036.jpg",
+    "image_sha256": "0e2bacbcdae36d54c0347d9d1b2d236c694bec4c1905078089e07c7ac85ab2d1",
+    "label_sha256": "55e3efe7356903679abb231d2ddc072be99c08d4dbc03fc777ee149786379857",
+    "width": 2048,
+    "height": 1000,
+    "objects": 2
+  },
+  {
+    "file": "img_04_4402622500_00373.jpg",
+    "image_sha256": "44204d6a74a2c38f307865ac28fd9b82f2243c7922bc7a7a057445a895bdde1b",
+    "label_sha256": "988f77dbca127e8e44c3ed1ef6838c0b19b559ab7dc594975841c200d63768ef",
+    "width": 2048,
+    "height": 1000,
+    "objects": 2
+  },
+  {
+    "file": "img_04_4402622500_00374.jpg",
+    "image_sha256": "ca555bcfe09797e128dc0462d8b7da70279dcc0acb2d3e173cb1366f238f1614",
+    "label_sha256": "67adfe3f8a1cb796137f825db851d018f460409c31c83652999ba002fa7c3261",
+    "width": 2048,
+    "height": 1000,
+    "objects": 2
+  },
+  {
+    "file": "img_04_4402622500_00378.jpg",
+    "image_sha256": "e13657658cb921f80c578d2652d77f16e3431dd381b13c2c05d8e79f0cabc6b3",
+    "label_sha256": "4507c77d4e842099967631198a8c51d38be730f069d41166b209d7f3ef300c5b",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_04_4406645900_00767.jpg",
+    "image_sha256": "e15918f5f4554e37fe30bd72622c654222f859100b440062de64547f60b772a2",
+    "label_sha256": "9b46eefc233e070fe9efc177aa69f5fac464b25f2ab09977d0601735eae645f6",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_04_4406743300_00592.jpg",
+    "image_sha256": "dd5bb739ba1adc0c800f7b7b4bb5a9ac0f3f39b1860ef1905232693dbdb2c1f5",
+    "label_sha256": "9ad2abce651c65e09c2a9b00dc8492838be0cf799e155591a00217beadd13a9b",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_04_SIS001577_00012.jpg",
+    "image_sha256": "f361441a675ef9819d355445fa42d47edf0869421828668426ed6970fff2cbea",
+    "label_sha256": "c28df42a01940d011f29b015e03db31f9422f9d4db0c52d1800ba565ade7e691",
+    "width": 2048,
+    "height": 1000,
+    "objects": 2
+  },
+  {
+    "file": "img_04_SIS001577_00045.jpg",
+    "image_sha256": "93b1e5726ea1d530526cc2ee1978048b3bccde5775f67ed5f7478bb18bc97929",
+    "label_sha256": "6a429e2002511b6e49342c216ca8a1e21bdc21c41177112325dbcb5f9ad75d3c",
+    "width": 2048,
+    "height": 1000,
+    "objects": 3
+  },
+  {
+    "file": "img_05_425244300_00741.jpg",
+    "image_sha256": "b015564d6c262d974d590a5962461ad16468da7a5e62eb1c5c60cdb01842f15e",
+    "label_sha256": "3c2e3934b00685230065afdc57461a906a8b6e9e6f849fc882b277e99d722358",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_05_425505900_01176.jpg",
+    "image_sha256": "e7012bc3805db9315a53071c2b34b759d8fd31f384521241065b44587bdf58d4",
+    "label_sha256": "36515117174665b2e84cef72bc189d2fd1dbce5f84a8fd8fb27d62e36f5e60a3",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_05_4406645900_00042.jpg",
+    "image_sha256": "8054d31656e052158733ce4e9ba2fa82900cba4a69111cb0b500a39973b76adf",
+    "label_sha256": "6626530f9a97c31dc0398920d02c385f94b452397cb2453026b5c15040395ff6",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_05_4406743300_00373.jpg",
+    "image_sha256": "1c159348e504468198493f9c3984f7d676f862468021b31feb049dd76ac25c8a",
+    "label_sha256": "c73d06479548271408214bc41a369253af7257580eea5f78e8eeb557362702fa",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_05_4406743300_00424.jpg",
+    "image_sha256": "f2297da3e886ab57fc0b8a5e76fcf0b9fe0a53671a0146d8c36e2168c9d11a22",
+    "label_sha256": "67089581f19f253567a93899ec4099d9c0b5a107dfed3dc2ef15cb840ae031e4",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_05_4406743300_00436.jpg",
+    "image_sha256": "9bd79dab38b69fdecc351fa28e623a8ba958cf730ad1f2aa842978879a341b75",
+    "label_sha256": "531be593e9e62490fd7ced8fdab0b65222d3b319f4ee04eec3a3ff880bdaa793",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_05_4406743300_00478.jpg",
+    "image_sha256": "36fbee65c3da542c226e32d5121cb8a3786b7259ccc8cf11be3a0ba2bfc0125d",
+    "label_sha256": "1d6ccae2848b76af09abc23a160ad46d10afe47094cfe0e9d28cdad1948bc7f2",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_05_4406743300_00480.jpg",
+    "image_sha256": "e9d0d17725385ec67ab7213f345a20dbffb8b154aff9eae33155fb92049b0809",
+    "label_sha256": "0a1019758a7fb3c138ed982333a7a8d01dd12b2932e9480cc773c0b0bac3d907",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_05_4406743300_00482.jpg",
+    "image_sha256": "c39aade19899b348f3121fb296283f61adad48cf3b35825d4cdf55526c403619",
+    "label_sha256": "fe76a76e69765ffdd9ea52ba220a0ca14555883471180a33edb93495541c5c91",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_05_4406743300_00487.jpg",
+    "image_sha256": "9a5cc922c463653126ca8995d50f53f3c7cd7eca61465e83413d8e589e6d86d4",
+    "label_sha256": "abdc38b9c7470eb59e1dabbe1dccb66aad53bd51b451b1bf46af2f153558de51",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_05_4406743300_00516.jpg",
+    "image_sha256": "6c42cdf9d81f88656017a71f8e56749c69a2c373b74b5750dbcbe5b0d90e08d3",
+    "label_sha256": "25bb5f3a4acd9383649cb44262fa62ee6a6e024325e4599a9b714e3781771fe9",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_05_4406743300_00614.jpg",
+    "image_sha256": "8c4d88fd26437aa30b92d41e9a7b1cfb2ef62580f9e3d22278b8503afca7cbc9",
+    "label_sha256": "3e7e97e57ff90505685be4b5a6f4c82ffcf661437af2ed1fa0d82109898762de",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_06_3436786500_00565.jpg",
+    "image_sha256": "e6f1fc48ce582b78dc6d29b0077f22a85d0a09429f1bae15a8de2c6f4b18d959",
+    "label_sha256": "fcff8ce70e7d645412a55dba44836a2a8959bd97c0598e02f3fa8ecf8e3b4782",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_06_3436814000_00686.jpg",
+    "image_sha256": "d592c806d13b2c144de0005b4736d240b3ba0f6aacef7e88725a88611812f103",
+    "label_sha256": "f066ddd806825a6f55178f75aca8bc776ba14853f6e3b595ed46fd7ce1b2003e",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_06_424826800_00488.jpg",
+    "image_sha256": "b0453666a4747e9157ffae42c030136272c79d9eef928e97712b6caa2457842d",
+    "label_sha256": "833c79c58776b664d052ae48dfced7628d0114bd8dfdea0bfac34b35135987cd",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_06_425237000_00528.jpg",
+    "image_sha256": "0afe23d988430de2e35a56013b93e79f0c7e495c61b2c628a747417a84241098",
+    "label_sha256": "721299567afe85be7e53f9155966b3ebf99da5e83f6aee76d20fd0d7c57dbb56",
+    "width": 2048,
+    "height": 1000,
+    "objects": 4
+  },
+  {
+    "file": "img_06_425237000_00661.jpg",
+    "image_sha256": "ebb6d8d9f876946ba8460982a85026e9ddafa68e3d916b000e07132cae2c087c",
+    "label_sha256": "22e3168f18e273d48137ac8fba9bb3bbbb312434ff915876e15e5582faa1193a",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_06_425237000_00662.jpg",
+    "image_sha256": "3b969288f94af7311c9c6db6c4c1a42dbf3c700a5ff2e95d809dddacfe4408e1",
+    "label_sha256": "5e454704e9e91cc9ecacb2c1b2314079ec6ec6db3f296e62b3d3fba4888745fd",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_06_425391700_00039.jpg",
+    "image_sha256": "36cb6a1759bb4617a2119dbf5fea87eec84c77788a7b744066ece16d305c57f6",
+    "label_sha256": "8cd5d56fee116a7056ef6be913c09340ee3750461181a78b2fc7795a3e1f28ae",
+    "width": 2048,
+    "height": 1000,
+    "objects": 7
+  },
+  {
+    "file": "img_06_425506300_01025.jpg",
+    "image_sha256": "0995f0fd32dfca0c8061e4ce886eb8d10bcbbda4ab0b8ccfb68b1948e1e41f7f",
+    "label_sha256": "49de4c9c012196661636deba6a66d76f800f9a8bd4e30a1c408a19c742fed092",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_06_425508300_00928.jpg",
+    "image_sha256": "533d27091c4a17b88ee4527b52fd2fbbf2c561a2f38597c6a5ebd26c200205ed",
+    "label_sha256": "7b12bd4c3c995316e54759103d5714fbcd0b1e47217552f0a65334a486ffb7ae",
+    "width": 2048,
+    "height": 1000,
+    "objects": 4
+  },
+  {
+    "file": "img_06_425508300_00930.jpg",
+    "image_sha256": "1ce26db06de691678cbcc03e2de1c8293eaee302e157dbd2eff6658e7c3c0cea",
+    "label_sha256": "8b59dd0057deda2a54f5f46b4be5ec28ba3c897c3021f085aac26b84f3ea5710",
+    "width": 2048,
+    "height": 1000,
+    "objects": 6
+  },
+  {
+    "file": "img_06_425614600_00432.jpg",
+    "image_sha256": "6e12dcd10e0e17eb1b9b7ed6356740552470c0a15293c0e12fe39a8441cf568b",
+    "label_sha256": "905dbe03d3047cf76f1f10e8680abdb6d6f753b4ea761f8e29bf78f3166be41c",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_06_4402625300_01263.jpg",
+    "image_sha256": "2336f3c0be080879e1da96662b2578f320ce9bba6d778e08d063eec7ccf73d74",
+    "label_sha256": "31a8e3ec0e753b7e10a8b0d24244d89d7d301aa0eeb113d37a24d0a86b65c718",
+    "width": 2048,
+    "height": 1000,
+    "objects": 5
+  },
+  {
+    "file": "img_06_4406645900_00479.jpg",
+    "image_sha256": "002b11dfd906eec5cde2dec57c9d4e16cbad1cd9a668cdde9403f8d4f18a83bd",
+    "label_sha256": "08e20f7dd9905eb410ae83c6075d9546b5f549782a45bea67b6e64c0cecdb278",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_06_4406645900_00485.jpg",
+    "image_sha256": "72ddb00f77bdf7c2ad15b033023047249a86309a905b62f5309a653abaff6b3b",
+    "label_sha256": "b79b776e5ffd213a0321aa45dc7ddc8c10da22bb2007e5b02201849773a77b4c",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_06_4406645900_00490.jpg",
+    "image_sha256": "20c8442dd70b04c753ca9e278dcc795d64f77cce7afd4406d183178bfc55cf55",
+    "label_sha256": "cb9fcb349e8887fe960c9e8b93eb39138eff2343dbdbc741b694f4a21cabdeb0",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_06_4406645900_00501.jpg",
+    "image_sha256": "11b60f0499db937efe9212c2db2c1aa7b3910ede3d33815473508786ac387e2d",
+    "label_sha256": "82a2bc43fd8c8db7576f684b82b36560d9ee2b9c9f4c480a25001c9456664151",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_06_4406743300_00095.jpg",
+    "image_sha256": "f5b84a0da7dc50c0cb0227b074461e335cd36a738bc9021d39ce3750d09b68bb",
+    "label_sha256": "910405c5de20c82835e6ef55195fcd91e5bad77ea622e713c0f226d66d7d05aa",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_06_4406743300_00101.jpg",
+    "image_sha256": "ad3e19368c5d7350105f3bbb1fe79a8701d89ca17387b1619f66498e424c45ae",
+    "label_sha256": "7d678fd298ef6bb756046a63c69e58def4ef83a10f627d7a877ec8182b1f567f",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_07_3436785900_00004.jpg",
+    "image_sha256": "f90e5e77eaa9fb4cd420fa939ad43d6df7d64dde872ecedbc02556550f8d6b3b",
+    "label_sha256": "04f04beabafbee4fd6283cd8e8330251732a61e2dd7ba5230a3e89122604e654",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_07_3436814000_00016.jpg",
+    "image_sha256": "c4caf92bbd41c24f467a748f23a8d60bf3dd4679e1b5ce71c3a80180500524a2",
+    "label_sha256": "ae6d8b6e4399eded0b86cd4f8572177686d9d626ae3584ddc9216e4eac0c519a",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_07_3436814000_00692.jpg",
+    "image_sha256": "12e85b30da911ca83a7a2ec2f9b03e3d8259839ec94ee3a2d4091bb0bfe62acb",
+    "label_sha256": "5ec8af02e1f8f81372aed49607bfc037c18ad0013f3fcb001f69f9bb568f4630",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_07_3437006500_00761.jpg",
+    "image_sha256": "68d137df1701bffa039107a6f944052fc8e70b8c602f34d08458a7136c3eee5a",
+    "label_sha256": "178aa3f5e4729210aaa42a6c1b43a8872bc4fdac68ada2b7618b8cc9c38d5078",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_07_3437011100_01183.jpg",
+    "image_sha256": "3060cf6c325f19f040042a148123eb346e455fdc4529dc5d9530cf4c724006a0",
+    "label_sha256": "01a7872af911167dbd8a825384a99aa54c3bf971287cd29d18af165cac00ec6d",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_07_424826800_00494.jpg",
+    "image_sha256": "f53755ea09d527d9b4c24faa464cb4f26c149919c6f44763ba6818022ec4c685",
+    "label_sha256": "34642eaa0a5f496a3f1fcf348f4827bdd3585a3e22d57354974755522292b7fd",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_07_424826800_00507.jpg",
+    "image_sha256": "c7ca6f5cd69dec2c6bab6e19d8fe79ad7dfdec6112a871de16911cce0f33c38c",
+    "label_sha256": "12e9089ce2d7575e1ed79a6befe087e9c800e136c58dfdea8ea6c773b2d5fbb0",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_07_425243200_00001.jpg",
+    "image_sha256": "7a86c3925ba34731ffffff3095b5f042d61565bf318f2be57ac0c23f1a120f40",
+    "label_sha256": "08b27d30fd6c44d987b50715595837fc60653253bb8420fc61d6c633ca234a90",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_07_425503000_00062.jpg",
+    "image_sha256": "3e0580d43c3eb27ae5385baed32af07c2e277d46251aca08d3c0e69e51103aa6",
+    "label_sha256": "1c06c0dbafd9c962513cff6dd17e8427462ed8b6d2626c51e850c6ba8f5deb40",
+    "width": 2048,
+    "height": 1000,
+    "objects": 2
+  },
+  {
+    "file": "img_07_425506100_00205.jpg",
+    "image_sha256": "423b600b47ff5d52d2c6dac51d9e6b46359d4176f3ab178f54f5cd0f3272d4f9",
+    "label_sha256": "fbfd1fb1f0573732754572cd83129b3a66e3d78833af3c1807750467bab500a3",
+    "width": 2048,
+    "height": 1000,
+    "objects": 3
+  },
+  {
+    "file": "img_07_425508300_00929.jpg",
+    "image_sha256": "8b4f31a8a8af8e3d1477b369ce39fd98d813fe416a5977755e816f2253433e8c",
+    "label_sha256": "ce8e02445048d3f6e227d3f67d62c950fd608d64bfd5ac8907bfad1ec4d56c34",
+    "width": 2048,
+    "height": 1000,
+    "objects": 2
+  },
+  {
+    "file": "img_07_425508400_00965.jpg",
+    "image_sha256": "443449cc0081b8d33546716aa7974a0a1df481728ecab60ea6208c68e8911888",
+    "label_sha256": "20b555de9c7cdc5abc7e7d021db2387bdc7bd45de5564a3756fbf69fc8c9562f",
+    "width": 2048,
+    "height": 1000,
+    "objects": 3
+  },
+  {
+    "file": "img_07_425508400_00968.jpg",
+    "image_sha256": "e9a35344da91e1882b61cec4e8d6c7f867917c409f7dddf4f66b3aaac199a682",
+    "label_sha256": "bb46392b0a8b8295b8c1ca9ef0df9a0a3be3c4728e95839bf025769c1c416d28",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_07_436164700_01536.jpg",
+    "image_sha256": "d230a65a55bb5e76460c14ba071590c686106c0286f954c63c4f7dd59a6b6c91",
+    "label_sha256": "66256450813ef3fb8d537c2ca78ba1c91632d0f50fa770d22213e41018ba23b9",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_07_436164700_01537.jpg",
+    "image_sha256": "10ae10e54100db60b709ad5f8672e3381bb1c9178aa02bde9b11ee8b9e3757e8",
+    "label_sha256": "438165f574e8184056b03dcf9339872f6a86dfb738f7a7b3e6cb698dfb415c00",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_07_436164700_01538.jpg",
+    "image_sha256": "7b05576f52a83d523c1c4edd0da3206eba689819df88680d9008cff94acb8931",
+    "label_sha256": "83bd6e25034da3628463ec8522971bf1693b8537864d6fca0f2a46543ecc3852",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_07_436164700_01551.jpg",
+    "image_sha256": "a571fc1e2eefd41a0b15af05b2e7a5fc4b8f86635e972a1f4ec944e074c130a5",
+    "label_sha256": "03875ff6bc8ac3a349d7af2e100979f36cd797b4cb483faf67fc2cb1a8b0ca16",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_07_4402625300_01262.jpg",
+    "image_sha256": "98cf19a6f70160608d2652da018068a03c17bb2fd5a61a44d83d8f4b147dd765",
+    "label_sha256": "d192950b1b42bf8d26be114e2c882d06454c6d9c89148146f0d26014c91860fd",
+    "width": 2048,
+    "height": 1000,
+    "objects": 3
+  },
+  {
+    "file": "img_07_4404374100_01265.jpg",
+    "image_sha256": "73866b2b5516f61411f64778bbdd92772b335a5b31de9a9eb895cc958673dd1c",
+    "label_sha256": "9ffec062a1fe9d9e3fd51dde1fbaa54e27420c9f9cf082d8abf6d207a7ece97a",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_07_4404374100_01338.jpg",
+    "image_sha256": "87046c4b9038b2e6cbbd882cce24cafdc191f3ccb75d58cc03de62c4b4039cfc",
+    "label_sha256": "64d82ba0615c8c17fb0fb3753f01afcfb94032617cc47300b3c9d78df318bcf6",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_07_4404374100_01348.jpg",
+    "image_sha256": "a4d42e510f5a80ea35dd31284d6538792b671969ed99546477417f4502ae6a7a",
+    "label_sha256": "36084a9fe6d92c4c1f358dc3c94725e8dfbf6f09c994cdebb06e7e72bb097a1b",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_07_4405133600_00036.jpg",
+    "image_sha256": "3802e8961bee227a723f7a1b37f738da82f9fb9a5b49d14cb5e1350d4a22b192",
+    "label_sha256": "b0d1d9d3a37786a9d7ee15f195dc0f2513ee45a31e67063dfefa46c1c4342b08",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_07_4405133600_00046.jpg",
+    "image_sha256": "7d5e40cf4ed2094bd7ebd1efc8664eb53d1d273c3c7d4b97fea461a445941ac7",
+    "label_sha256": "6b89d5c04be2edd29e2575e5c40792fea0e716d9e5f91ccfb49ac6ff36a96d00",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_07_4405376800_00039.jpg",
+    "image_sha256": "51131bde8ca25cd9109d88ffc583b0264d67f840beb23486511099712f8f33ff",
+    "label_sha256": "f13092ea7fb1b886ecd28bda0b5361ec5100921f5eb273f06a9ec9e9d1777703",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_07_4406645900_00046.jpg",
+    "image_sha256": "a4a7c83c97249e419e6b249cb31725bc5f463793827af5677e7e7a67d3c71137",
+    "label_sha256": "fffd1be22e92028cd3486643948641a9cf474f15c4f25dc4e57ddbcc8693293e",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_07_4406645900_00152.jpg",
+    "image_sha256": "2a044980ba19eed697c9a2f9a8b46fa2ef0b2973e4e48c1b7aa670866f027ee5",
+    "label_sha256": "2cf1b54f2c9f8ebc70fb7630638b74f0063c736143100005eba1a579a1d5fec5",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_07_4406645900_00200.jpg",
+    "image_sha256": "99569981a946fc4453f890d30400c7cfa467782cadb08fc17f7c0e7635964a78",
+    "label_sha256": "6575f5860eab3ea2b3540b34d2d93beaf8726295acc87f1fee52f445d391c580",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_07_4406645900_00523.jpg",
+    "image_sha256": "593f090c222efed7e9b6b967d44db1324023530602f127326c9c3a9d47ba6d70",
+    "label_sha256": "1fa74233bb73ae56eb8abad0cacf171046e763fa2e9ba78ffe54d15a570be355",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_07_4406645900_00526.jpg",
+    "image_sha256": "f337cd3bd48732449a342a5334f9d191ade8e7f30cda5a28b83b85ac15c9ea7b",
+    "label_sha256": "0848f9868a7ca00ddc1c32451cfa0c7bcb335778d7e0b19dc42b1d6d9422d70b",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_07_4406645900_00559.jpg",
+    "image_sha256": "15a0c3d15e235198dd7c065548542b0b98edaf58c78108f054282c16512770ff",
+    "label_sha256": "e3ac27e88f1bfe218c95761caaae7c395a2af0ce20b20404a7499397d9024030",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_07_4406645900_00650.jpg",
+    "image_sha256": "0bebcf27ab807b76b8e43ad47347a575afd8c081a830285d168ab86df04cb50c",
+    "label_sha256": "d231ef4a0bcc6878ffe2d35fda9279c6fcf2d41ddcb9c16409804e6379b7cf66",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_07_4406645900_00746.jpg",
+    "image_sha256": "d0383c9714ce7b7c2d8d4008c328b10da27ff295551700ff0d270830ed9747fd",
+    "label_sha256": "41177c76bc735996cd37a98b7c26e1d74f13bee4590b327f653bde32abbf3df0",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_07_4406645900_00852.jpg",
+    "image_sha256": "160abf0206147d54822ba2457fd893f6c73f13346c125773c93148126cfdb582",
+    "label_sha256": "05525dfbfd3fbcce1e4757deb2990e2e46d76de50a55c0ccab0b35def0eaee74",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_07_4406743300_00042.jpg",
+    "image_sha256": "e9c92e3a64b9f91504aae7b22b6072ea824d928e1d24ebfd739d39786692eef5",
+    "label_sha256": "92aeab2857617117abb1a4f63b358836b2101bc996f1ea67cf4ec671bd8fea38",
+    "width": 2048,
+    "height": 1000,
+    "objects": 2
+  },
+  {
+    "file": "img_07_4406743300_00094.jpg",
+    "image_sha256": "df6ccb74dfca1d97eab888f243bccbfa747f3f64e553d2ff2950c0de53082037",
+    "label_sha256": "d4f2d993eb77f7c98c5e3b164ca7aaf10b87eaa43f6ffddfeccebae291599399",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_07_4406743300_00112.jpg",
+    "image_sha256": "a25fb9ad0b9bb9e5133fda359561906734577e3db4cd03db37c31b689b0cb64a",
+    "label_sha256": "a6518a154a1e70f2c973d494ba282643318f6961df03c84d59c7a8179bae8c92",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_07_4406743300_00132.jpg",
+    "image_sha256": "1d5e38747a1a4d5d2bbf77338cfb0c722a286ceaf693d78858f62bae69dcb1bc",
+    "label_sha256": "dad508484c89810e04f6f3c8609d916cdaf5cf0d02b55440001b6d9f037ab95e",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_08_3436815300_00019.jpg",
+    "image_sha256": "c06383cb5369c6844ee38c9167e0891d0ba1289bb7b1332adb65aca139e7c841",
+    "label_sha256": "8031c4a0138a1ab5ce41e4b87c9fd4f9aecd9555394c000507007588a15f236e",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_08_425506100_00159.jpg",
+    "image_sha256": "e1c71562cdfa7f48832faf9d02cf3e24769ea0ef47010f34fe30ff2d2bce815f",
+    "label_sha256": "9856150d3efc9990cf28be7004b7fda62fa7440b82bb168d6df966be67665678",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_08_425506600_00952.jpg",
+    "image_sha256": "3f0d2ccbee2d6cdbd37b66d3f67b402f4e5e9fbd01a5e3e2ae70da446988b04b",
+    "label_sha256": "c62e47228ea054702e62c0750a08e1530f1c716472376c52d2e6b0a398f463cb",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_08_425608200_00504.jpg",
+    "image_sha256": "d046f90e905c543c2a6dd81ef16b9dadccdf6e5810186dd680818e8abc88de18",
+    "label_sha256": "348d0bc666b857f737f9bcf972a8c976ec6b27a5ad1f30db51aae03b7473abc8",
+    "width": 2048,
+    "height": 1000,
+    "objects": 3
+  },
+  {
+    "file": "img_08_425638500_00091.jpg",
+    "image_sha256": "a6be961bd6efd522f64205e307dba266b8b474dff1bf6e81af0d90c07e50742b",
+    "label_sha256": "a6ec3be39f5604b09a1f0cbc08fd773b0cc1ce46c22beb940396a1de75fc2593",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_08_4406743300_00396.jpg",
+    "image_sha256": "44323d38a585bef14d61869a90a1ba52bc8201cec7b9642f95cb16e69e3b8110",
+    "label_sha256": "932606f1e4fea8f2de1a75ed4c1e136270446e0f9e0a23625b9b9196983a6aaf",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_08_4406743300_00417.jpg",
+    "image_sha256": "216c905b2c887db10f2fdcd6f5ac5dd0aef593323051100b42db1df91b2feaf5",
+    "label_sha256": "d08056427f305ab35cb882b7b7b3e53ce5b8afeeac714c34e4a2633b740bbf7d",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_08_4406743300_00430.jpg",
+    "image_sha256": "7896f1cd6b0e5632c2db3eb359fbb864fb1689492d87bb7ab13e6e81e0858c83",
+    "label_sha256": "2acde4666d9e9fa6941ac048cd6482bc6907a5d49ed54db4fe2c126e34cf08b4",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_08_4406743300_00432.jpg",
+    "image_sha256": "3e71326b6a507b7fa46838cc2b2852f74dce26c5be10e9c056ddee2419d5dd84",
+    "label_sha256": "f728a5c6a287e7b7ece49aae0ec38dc8e82db7f01a8a17bbc1839819e48794f2",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  },
+  {
+    "file": "img_08_4406743300_00462.jpg",
+    "image_sha256": "545a62175f980aba81098bff27eeaeed685efcdda1881cf810f23a9e83b21be5",
+    "label_sha256": "96f25e8f932920949e1ecaed2ee88f73b3bc6b6a5a0343ae3fb55262c17d1c9e",
+    "width": 2048,
+    "height": 1000,
+    "objects": 1
+  }
+]

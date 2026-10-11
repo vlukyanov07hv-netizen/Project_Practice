@@ -1,0 +1,11 @@
+path: G:/Project/cv-project/data/raw
+train: images/train
+val: images/val
+test: images/test
+nc: 5
+names:
+  0: deburring
+  1: inclusion
+  2: rolled_pit
+  3: silk_spot
+  4: waist_folding

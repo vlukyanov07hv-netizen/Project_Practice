@@ -1,0 +1,9 @@
+Mode: eval
+Model: yolo_s
+Split: test
+Checkpoint SHA256: 97374540c49c5e68e51a493af0e4f9e8a19cab564286c1c72144fa9b7f7a9293
+mAP50: 0.51572857
+mAP50-95: 0.18482796
+Precision: 0.55813953
+Recall: 0.53097345
+F1: 0.54421769

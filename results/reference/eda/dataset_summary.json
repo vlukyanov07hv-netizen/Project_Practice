@@ -1,0 +1,54 @@
+{
+  "dataset": "c5data2",
+  "images": 1075,
+  "objects": 1444,
+  "classes": [
+    "deburring",
+    "inclusion",
+    "rolled_pit",
+    "silk_spot",
+    "waist_folding"
+  ],
+  "splits": {
+    "train": {
+      "images": 752,
+      "objects": 985
+    },
+    "val": {
+      "images": 161,
+      "objects": 233
+    },
+    "test": {
+      "images": 162,
+      "objects": 226
+    }
+  },
+  "class_objects": {
+    "deburring": [
+      34,
+      6,
+      3
+    ],
+    "inclusion": [
+      243,
+      84,
+      74
+    ],
+    "rolled_pit": [
+      40,
+      4,
+      16
+    ],
+    "silk_spot": [
+      572,
+      114,
+      107
+    ],
+    "waist_folding": [
+      96,
+      25,
+      26
+    ]
+  },
+  "note": "Counts transcribed from the verified EDA and final report. Windows collector copies original train/val manifests."
+}

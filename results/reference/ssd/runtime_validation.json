@@ -1,0 +1,959 @@
+{
+  "script_version": "1.0",
+  "status": "completed",
+  "errors": [],
+  "training_performed": false,
+  "project_code_modified": false,
+  "cases": [
+    {
+      "case": "legacy_flags",
+      "status": "completed",
+      "errors": [],
+      "training_performed": false,
+      "environment": {
+        "python": "3.9.25 (main, Nov  3 2025, 22:44:01) [MSC v.1929 64 bit (AMD64)]",
+        "packages": {
+          "torch": "2.5.1+cu121",
+          "torchvision": "0.20.1+cu121",
+          "ultralytics": "8.4.163",
+          "transformers": "4.44.2",
+          "timm": "1.0.9",
+          "numpy": "2.0.2",
+          "scipy": "1.13.1",
+          "Pillow": "11.3.0",
+          "matplotlib": "3.9.4",
+          "safetensors": "0.4.5",
+          "PyYAML": "6.0.3"
+        }
+      },
+      "backend_initial": {
+        "cudnn_deterministic": false,
+        "cudnn_benchmark": false,
+        "cudnn_enabled": true,
+        "cudnn_allow_tf32": true,
+        "cuda_matmul_allow_tf32": false,
+        "float32_matmul_precision": "highest",
+        "deterministic_algorithms": false,
+        "default_dtype": "torch.float32",
+        "CUBLAS_WORKSPACE_CONFIG": null
+      },
+      "gpu": {
+        "name": "NVIDIA GeForce RTX 3050",
+        "cuda": "12.1",
+        "cudnn_version": 90100
+      },
+      "backend_before_inference": {
+        "cudnn_deterministic": false,
+        "cudnn_benchmark": false,
+        "cudnn_enabled": true,
+        "cudnn_allow_tf32": true,
+        "cuda_matmul_allow_tf32": false,
+        "float32_matmul_precision": "highest",
+        "deterministic_algorithms": false,
+        "default_dtype": "torch.float32",
+        "CUBLAS_WORKSPACE_CONFIG": null
+      },
+      "backend_after_inference": {
+        "cudnn_deterministic": false,
+        "cudnn_benchmark": false,
+        "cudnn_enabled": true,
+        "cudnn_allow_tf32": true,
+        "cuda_matmul_allow_tf32": false,
+        "float32_matmul_precision": "highest",
+        "deterministic_algorithms": false,
+        "default_dtype": "torch.float32",
+        "CUBLAS_WORKSPACE_CONFIG": null
+      },
+      "metrics": {
+        "mAP50": 0.023408482738243263,
+        "mAP50_95": 0.008328788024406368,
+        "precision": 0.09876543209876543,
+        "recall": 0.1415929203539823,
+        "f1": 0.11636363636363636,
+        "precision_macro": 0.019753086419753086,
+        "recall_macro": 0.05981308411214953,
+        "f1_macro": 0.029698375870069606,
+        "tp": 32,
+        "fp": 292,
+        "fn": 194,
+        "per_class": [
+          {
+            "class_id": 0,
+            "class": "deburring",
+            "images": 3,
+            "objects": 3,
+            "AP50": 0.0,
+            "AP50_95": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 3
+          },
+          {
+            "class_id": 1,
+            "class": "inclusion",
+            "images": 35,
+            "objects": 74,
+            "AP50": 3.804415023634928e-06,
+            "AP50_95": 1.5217660094539714e-06,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 74
+          },
+          {
+            "class_id": 2,
+            "class": "rolled_pit",
+            "images": 7,
+            "objects": 16,
+            "AP50": 0.0,
+            "AP50_95": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 16
+          },
+          {
+            "class_id": 3,
+            "class": "silk_spot",
+            "images": 91,
+            "objects": 107,
+            "AP50": 0.05785411292565949,
+            "AP50_95": 0.01806704355080451,
+            "precision": 0.09876543209876543,
+            "recall": 0.29906542056074764,
+            "f1": 0.14849187935034802,
+            "tp": 32,
+            "fp": 292,
+            "fn": 75
+          },
+          {
+            "class_id": 4,
+            "class": "waist_folding",
+            "images": 26,
+            "objects": 26,
+            "AP50": 0.05918449635053319,
+            "AP50_95": 0.023575374805217885,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 26
+          }
+        ]
+      },
+      "elapsed_seconds": 12.137729100000001,
+      "weights_sha256": "647d27170b9e118ce648c00717f2bcaa545b3774cd687abd4da58e8da5320149",
+      "prediction_fingerprint": "3480acad4a4c8a48e6b79d6842cda0b57825422571fdf09d2ebf5ecde2f1ebee",
+      "detections": 48600,
+      "detections_per_class": {
+        "3": 18578,
+        "4": 486,
+        "0": 648,
+        "1": 28888
+      },
+      "diff_from_legacy_metrics": {
+        "mAP50": 0.0,
+        "mAP50_95": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "diff_from_pipeline_metrics": {
+        "mAP50": -0.01207660683205004,
+        "mAP50_95": -0.002829177485777743,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "predictions_vs_legacy": {
+        "exact": true,
+        "images_with_changed_detection_count": 0,
+        "rank_aligned_pairs": 48600,
+        "rank_aligned_class_changes": 0,
+        "rank_aligned_max_score_delta": 0.0,
+        "rank_aligned_max_box_delta_pixels": 0.0,
+        "note": "Rank-aligned differences also include any changed detection order."
+      },
+      "predictions_vs_pipeline": {
+        "exact": false,
+        "images_with_changed_detection_count": 0,
+        "rank_aligned_pairs": 48143,
+        "rank_aligned_class_changes": 457,
+        "rank_aligned_max_score_delta": 2.6986002922058105e-05,
+        "rank_aligned_max_box_delta_pixels": 1747.6288604736328,
+        "note": "Rank-aligned differences also include any changed detection order."
+      },
+      "return_code": 0
+    },
+    {
+      "case": "pipeline_flags",
+      "status": "completed",
+      "errors": [],
+      "training_performed": false,
+      "environment": {
+        "python": "3.9.25 (main, Nov  3 2025, 22:44:01) [MSC v.1929 64 bit (AMD64)]",
+        "packages": {
+          "torch": "2.5.1+cu121",
+          "torchvision": "0.20.1+cu121",
+          "ultralytics": "8.4.163",
+          "transformers": "4.44.2",
+          "timm": "1.0.9",
+          "numpy": "2.0.2",
+          "scipy": "1.13.1",
+          "Pillow": "11.3.0",
+          "matplotlib": "3.9.4",
+          "safetensors": "0.4.5",
+          "PyYAML": "6.0.3"
+        }
+      },
+      "backend_initial": {
+        "cudnn_deterministic": false,
+        "cudnn_benchmark": false,
+        "cudnn_enabled": true,
+        "cudnn_allow_tf32": true,
+        "cuda_matmul_allow_tf32": false,
+        "float32_matmul_precision": "highest",
+        "deterministic_algorithms": false,
+        "default_dtype": "torch.float32",
+        "CUBLAS_WORKSPACE_CONFIG": null
+      },
+      "gpu": {
+        "name": "NVIDIA GeForce RTX 3050",
+        "cuda": "12.1",
+        "cudnn_version": 90100
+      },
+      "backend_before_inference": {
+        "cudnn_deterministic": true,
+        "cudnn_benchmark": false,
+        "cudnn_enabled": true,
+        "cudnn_allow_tf32": true,
+        "cuda_matmul_allow_tf32": false,
+        "float32_matmul_precision": "highest",
+        "deterministic_algorithms": false,
+        "default_dtype": "torch.float32",
+        "CUBLAS_WORKSPACE_CONFIG": null
+      },
+      "backend_after_inference": {
+        "cudnn_deterministic": true,
+        "cudnn_benchmark": false,
+        "cudnn_enabled": true,
+        "cudnn_allow_tf32": true,
+        "cuda_matmul_allow_tf32": false,
+        "float32_matmul_precision": "highest",
+        "deterministic_algorithms": false,
+        "default_dtype": "torch.float32",
+        "CUBLAS_WORKSPACE_CONFIG": null
+      },
+      "metrics": {
+        "mAP50": 0.0354850895702933,
+        "mAP50_95": 0.01115796551018411,
+        "precision": 0.09876543209876543,
+        "recall": 0.1415929203539823,
+        "f1": 0.11636363636363636,
+        "precision_macro": 0.019753086419753086,
+        "recall_macro": 0.05981308411214953,
+        "f1_macro": 0.029698375870069606,
+        "tp": 32,
+        "fp": 292,
+        "fn": 194,
+        "per_class": [
+          {
+            "class_id": 0,
+            "class": "deburring",
+            "images": 3,
+            "objects": 3,
+            "AP50": 0.0,
+            "AP50_95": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 3
+          },
+          {
+            "class_id": 1,
+            "class": "inclusion",
+            "images": 35,
+            "objects": 74,
+            "AP50": 3.804415023634928e-06,
+            "AP50_95": 1.5217660094539714e-06,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 74
+          },
+          {
+            "class_id": 2,
+            "class": "rolled_pit",
+            "images": 7,
+            "objects": 16,
+            "AP50": 0.0,
+            "AP50_95": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 16
+          },
+          {
+            "class_id": 3,
+            "class": "silk_spot",
+            "images": 91,
+            "objects": 107,
+            "AP50": 0.057203372943693806,
+            "AP50_95": 0.01783467730612156,
+            "precision": 0.09876543209876543,
+            "recall": 0.29906542056074764,
+            "f1": 0.14849187935034802,
+            "tp": 32,
+            "fp": 292,
+            "fn": 75
+          },
+          {
+            "class_id": 4,
+            "class": "waist_folding",
+            "images": 26,
+            "objects": 26,
+            "AP50": 0.12021827049274907,
+            "AP50_95": 0.03795362847878954,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 26
+          }
+        ]
+      },
+      "elapsed_seconds": 16.625698299999996,
+      "weights_sha256": "647d27170b9e118ce648c00717f2bcaa545b3774cd687abd4da58e8da5320149",
+      "prediction_fingerprint": "6fc9a80d872451ff7396c899c99dc134b8b6c218c9a219a7a13a57c685a9b643",
+      "detections": 48600,
+      "detections_per_class": {
+        "3": 18577,
+        "4": 486,
+        "0": 648,
+        "1": 28889
+      },
+      "diff_from_legacy_metrics": {
+        "mAP50": 0.01207660683205004,
+        "mAP50_95": 0.002829177485777743,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "diff_from_pipeline_metrics": {
+        "mAP50": 0.0,
+        "mAP50_95": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "predictions_vs_legacy": {
+        "exact": false,
+        "images_with_changed_detection_count": 0,
+        "rank_aligned_pairs": 48143,
+        "rank_aligned_class_changes": 457,
+        "rank_aligned_max_score_delta": 2.6986002922058105e-05,
+        "rank_aligned_max_box_delta_pixels": 1747.6288604736328,
+        "note": "Rank-aligned differences also include any changed detection order."
+      },
+      "predictions_vs_pipeline": {
+        "exact": true,
+        "images_with_changed_detection_count": 0,
+        "rank_aligned_pairs": 48600,
+        "rank_aligned_class_changes": 0,
+        "rank_aligned_max_score_delta": 0.0,
+        "rank_aligned_max_box_delta_pixels": 0.0,
+        "note": "Rank-aligned differences also include any changed detection order."
+      },
+      "return_code": 0
+    },
+    {
+      "case": "pipeline_repeat",
+      "status": "completed",
+      "errors": [],
+      "training_performed": false,
+      "environment": {
+        "python": "3.9.25 (main, Nov  3 2025, 22:44:01) [MSC v.1929 64 bit (AMD64)]",
+        "packages": {
+          "torch": "2.5.1+cu121",
+          "torchvision": "0.20.1+cu121",
+          "ultralytics": "8.4.163",
+          "transformers": "4.44.2",
+          "timm": "1.0.9",
+          "numpy": "2.0.2",
+          "scipy": "1.13.1",
+          "Pillow": "11.3.0",
+          "matplotlib": "3.9.4",
+          "safetensors": "0.4.5",
+          "PyYAML": "6.0.3"
+        }
+      },
+      "backend_initial": {
+        "cudnn_deterministic": false,
+        "cudnn_benchmark": false,
+        "cudnn_enabled": true,
+        "cudnn_allow_tf32": true,
+        "cuda_matmul_allow_tf32": false,
+        "float32_matmul_precision": "highest",
+        "deterministic_algorithms": false,
+        "default_dtype": "torch.float32",
+        "CUBLAS_WORKSPACE_CONFIG": null
+      },
+      "gpu": {
+        "name": "NVIDIA GeForce RTX 3050",
+        "cuda": "12.1",
+        "cudnn_version": 90100
+      },
+      "backend_before_inference": {
+        "cudnn_deterministic": true,
+        "cudnn_benchmark": false,
+        "cudnn_enabled": true,
+        "cudnn_allow_tf32": true,
+        "cuda_matmul_allow_tf32": false,
+        "float32_matmul_precision": "highest",
+        "deterministic_algorithms": false,
+        "default_dtype": "torch.float32",
+        "CUBLAS_WORKSPACE_CONFIG": null
+      },
+      "backend_after_inference": {
+        "cudnn_deterministic": true,
+        "cudnn_benchmark": false,
+        "cudnn_enabled": true,
+        "cudnn_allow_tf32": true,
+        "cuda_matmul_allow_tf32": false,
+        "float32_matmul_precision": "highest",
+        "deterministic_algorithms": false,
+        "default_dtype": "torch.float32",
+        "CUBLAS_WORKSPACE_CONFIG": null
+      },
+      "metrics": {
+        "mAP50": 0.0354850895702933,
+        "mAP50_95": 0.01115796551018411,
+        "precision": 0.09876543209876543,
+        "recall": 0.1415929203539823,
+        "f1": 0.11636363636363636,
+        "precision_macro": 0.019753086419753086,
+        "recall_macro": 0.05981308411214953,
+        "f1_macro": 0.029698375870069606,
+        "tp": 32,
+        "fp": 292,
+        "fn": 194,
+        "per_class": [
+          {
+            "class_id": 0,
+            "class": "deburring",
+            "images": 3,
+            "objects": 3,
+            "AP50": 0.0,
+            "AP50_95": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 3
+          },
+          {
+            "class_id": 1,
+            "class": "inclusion",
+            "images": 35,
+            "objects": 74,
+            "AP50": 3.804415023634928e-06,
+            "AP50_95": 1.5217660094539714e-06,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 74
+          },
+          {
+            "class_id": 2,
+            "class": "rolled_pit",
+            "images": 7,
+            "objects": 16,
+            "AP50": 0.0,
+            "AP50_95": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 16
+          },
+          {
+            "class_id": 3,
+            "class": "silk_spot",
+            "images": 91,
+            "objects": 107,
+            "AP50": 0.057203372943693806,
+            "AP50_95": 0.01783467730612156,
+            "precision": 0.09876543209876543,
+            "recall": 0.29906542056074764,
+            "f1": 0.14849187935034802,
+            "tp": 32,
+            "fp": 292,
+            "fn": 75
+          },
+          {
+            "class_id": 4,
+            "class": "waist_folding",
+            "images": 26,
+            "objects": 26,
+            "AP50": 0.12021827049274907,
+            "AP50_95": 0.03795362847878954,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 26
+          }
+        ]
+      },
+      "elapsed_seconds": 16.6086733,
+      "weights_sha256": "647d27170b9e118ce648c00717f2bcaa545b3774cd687abd4da58e8da5320149",
+      "prediction_fingerprint": "6fc9a80d872451ff7396c899c99dc134b8b6c218c9a219a7a13a57c685a9b643",
+      "detections": 48600,
+      "detections_per_class": {
+        "3": 18577,
+        "4": 486,
+        "0": 648,
+        "1": 28889
+      },
+      "diff_from_legacy_metrics": {
+        "mAP50": 0.01207660683205004,
+        "mAP50_95": 0.002829177485777743,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "diff_from_pipeline_metrics": {
+        "mAP50": 0.0,
+        "mAP50_95": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "predictions_vs_legacy": {
+        "exact": false,
+        "images_with_changed_detection_count": 0,
+        "rank_aligned_pairs": 48143,
+        "rank_aligned_class_changes": 457,
+        "rank_aligned_max_score_delta": 2.6986002922058105e-05,
+        "rank_aligned_max_box_delta_pixels": 1747.6288604736328,
+        "note": "Rank-aligned differences also include any changed detection order."
+      },
+      "predictions_vs_pipeline": {
+        "exact": true,
+        "images_with_changed_detection_count": 0,
+        "rank_aligned_pairs": 48600,
+        "rank_aligned_class_changes": 0,
+        "rank_aligned_max_score_delta": 0.0,
+        "rank_aligned_max_box_delta_pixels": 0.0,
+        "note": "Rank-aligned differences also include any changed detection order."
+      },
+      "return_code": 0
+    },
+    {
+      "case": "tf32_off",
+      "status": "completed",
+      "errors": [],
+      "training_performed": false,
+      "environment": {
+        "python": "3.9.25 (main, Nov  3 2025, 22:44:01) [MSC v.1929 64 bit (AMD64)]",
+        "packages": {
+          "torch": "2.5.1+cu121",
+          "torchvision": "0.20.1+cu121",
+          "ultralytics": "8.4.163",
+          "transformers": "4.44.2",
+          "timm": "1.0.9",
+          "numpy": "2.0.2",
+          "scipy": "1.13.1",
+          "Pillow": "11.3.0",
+          "matplotlib": "3.9.4",
+          "safetensors": "0.4.5",
+          "PyYAML": "6.0.3"
+        }
+      },
+      "backend_initial": {
+        "cudnn_deterministic": false,
+        "cudnn_benchmark": false,
+        "cudnn_enabled": true,
+        "cudnn_allow_tf32": true,
+        "cuda_matmul_allow_tf32": false,
+        "float32_matmul_precision": "highest",
+        "deterministic_algorithms": false,
+        "default_dtype": "torch.float32",
+        "CUBLAS_WORKSPACE_CONFIG": null
+      },
+      "gpu": {
+        "name": "NVIDIA GeForce RTX 3050",
+        "cuda": "12.1",
+        "cudnn_version": 90100
+      },
+      "backend_before_inference": {
+        "cudnn_deterministic": true,
+        "cudnn_benchmark": false,
+        "cudnn_enabled": true,
+        "cudnn_allow_tf32": false,
+        "cuda_matmul_allow_tf32": false,
+        "float32_matmul_precision": "highest",
+        "deterministic_algorithms": false,
+        "default_dtype": "torch.float32",
+        "CUBLAS_WORKSPACE_CONFIG": null
+      },
+      "backend_after_inference": {
+        "cudnn_deterministic": true,
+        "cudnn_benchmark": false,
+        "cudnn_enabled": true,
+        "cudnn_allow_tf32": false,
+        "cuda_matmul_allow_tf32": false,
+        "float32_matmul_precision": "highest",
+        "deterministic_algorithms": false,
+        "default_dtype": "torch.float32",
+        "CUBLAS_WORKSPACE_CONFIG": null
+      },
+      "metrics": {
+        "mAP50": 0.02402512326024381,
+        "mAP50_95": 0.008337698100119936,
+        "precision": 0.09876543209876543,
+        "recall": 0.1415929203539823,
+        "f1": 0.11636363636363636,
+        "precision_macro": 0.019753086419753086,
+        "recall_macro": 0.05981308411214953,
+        "f1_macro": 0.029698375870069606,
+        "tp": 32,
+        "fp": 292,
+        "fn": 194,
+        "per_class": [
+          {
+            "class_id": 0,
+            "class": "deburring",
+            "images": 3,
+            "objects": 3,
+            "AP50": 0.0,
+            "AP50_95": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 3
+          },
+          {
+            "class_id": 1,
+            "class": "inclusion",
+            "images": 35,
+            "objects": 74,
+            "AP50": 4.357830149212105e-06,
+            "AP50_95": 1.7431320596848418e-06,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 74
+          },
+          {
+            "class_id": 2,
+            "class": "rolled_pit",
+            "images": 7,
+            "objects": 16,
+            "AP50": 0.0,
+            "AP50_95": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 16
+          },
+          {
+            "class_id": 3,
+            "class": "silk_spot",
+            "images": 91,
+            "objects": 107,
+            "AP50": 0.059708422914442026,
+            "AP50_95": 0.01856400514869706,
+            "precision": 0.09876543209876543,
+            "recall": 0.29906542056074764,
+            "f1": 0.14849187935034802,
+            "tp": 32,
+            "fp": 292,
+            "fn": 75
+          },
+          {
+            "class_id": 4,
+            "class": "waist_folding",
+            "images": 26,
+            "objects": 26,
+            "AP50": 0.06041283555662782,
+            "AP50_95": 0.02312274221984294,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 26
+          }
+        ]
+      },
+      "elapsed_seconds": 16.4850672,
+      "weights_sha256": "647d27170b9e118ce648c00717f2bcaa545b3774cd687abd4da58e8da5320149",
+      "prediction_fingerprint": "6dc33c5dbf96bff1a4a79831209dd482b18e4265e70299b95c1f838eaeb0966c",
+      "detections": 48600,
+      "detections_per_class": {
+        "3": 18520,
+        "4": 486,
+        "0": 648,
+        "1": 28946
+      },
+      "diff_from_legacy_metrics": {
+        "mAP50": 0.0006166405220005486,
+        "mAP50_95": 8.910075713568222e-06,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "diff_from_pipeline_metrics": {
+        "mAP50": -0.011459966310049492,
+        "mAP50_95": -0.002820267410064175,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "predictions_vs_legacy": {
+        "exact": false,
+        "images_with_changed_detection_count": 0,
+        "rank_aligned_pairs": 47808,
+        "rank_aligned_class_changes": 792,
+        "rank_aligned_max_score_delta": 0.00013127923011779785,
+        "rank_aligned_max_box_delta_pixels": 2328.7159729003906,
+        "note": "Rank-aligned differences also include any changed detection order."
+      },
+      "predictions_vs_pipeline": {
+        "exact": false,
+        "images_with_changed_detection_count": 0,
+        "rank_aligned_pairs": 47829,
+        "rank_aligned_class_changes": 771,
+        "rank_aligned_max_score_delta": 0.00013127923011779785,
+        "rank_aligned_max_box_delta_pixels": 2328.7159729003906,
+        "note": "Rank-aligned differences also include any changed detection order."
+      },
+      "return_code": 0
+    }
+  ],
+  "inputs_before": {
+    "images": 1075,
+    "objects": 1444,
+    "dataset_fingerprint": "79af825766ce6bb402eaf5daea67ce223da58dc890a152fa6ed51e1774d33461",
+    "weights": {
+      "yolo_n": {
+        "checkpoint": "results/yolo_baseline-3/weights/best.pt",
+        "sha256": "75712e37567ad6ccf9a59090e7ff64652739d7b4659707aa9cb034012860a4ed",
+        "metadata": {}
+      },
+      "yolo_s": {
+        "checkpoint": "results/yolo_small/weights/best.pt",
+        "sha256": "97374540c49c5e68e51a493af0e4f9e8a19cab564286c1c72144fa9b7f7a9293",
+        "metadata": {}
+      },
+      "yolo_aug": {
+        "checkpoint": "results/yolo_augmented/weights/best.pt",
+        "sha256": "b9afa84b89ca87d69c0b58d49db4175d5bafa6283d393cb113b93692fdd69484",
+        "metadata": {}
+      },
+      "faster_rcnn": {
+        "checkpoint": "results/colab_results/content/results/faster_rcnn/model.pth",
+        "sha256": "0d7c90200d1bdb7ae618a5c9c0801d0921ce7f0d672c0e1cd9dfb3992bac96b7",
+        "metadata": {}
+      },
+      "ssd": {
+        "checkpoint": "results/colab_results/content/results/ssd/model.pth",
+        "sha256": "647d27170b9e118ce648c00717f2bcaa545b3774cd687abd4da58e8da5320149",
+        "metadata": {}
+      },
+      "detr": {
+        "checkpoint": "results/detr_fixed_20261005_202542_023635/best",
+        "sha256": "ac015252b9aaeae0bc6b850da01ae6c55da4c39d2a35e3b3aff55a82421db7a9",
+        "metadata": {
+          "config.json": "a37a028889472cec882f03684a5af91e4984a29827024147f36074843061b7fb",
+          "preprocessor_config.json": "c0da816333c0fc63a3799bd3f2f0179baf014520c5e47127423a16ea5ffcd6cd"
+        }
+      }
+    }
+  },
+  "summary": {
+    "diagnosis": "cudnn_deterministic_explains_difference",
+    "pipeline_repeat_predictions_exact": true,
+    "only_cudnn_deterministic_differs_between_first_two_cases": true,
+    "legacy_flags_match_previous_metrics": true,
+    "pipeline_flags_match_uploaded_pipeline_metrics": true,
+    "tf32_off_metrics": {
+      "mAP50": 0.02402512326024381,
+      "mAP50_95": 0.008337698100119936,
+      "precision": 0.09876543209876543,
+      "recall": 0.1415929203539823,
+      "f1": 0.11636363636363636,
+      "precision_macro": 0.019753086419753086,
+      "recall_macro": 0.05981308411214953,
+      "f1_macro": 0.029698375870069606,
+      "tp": 32,
+      "fp": 292,
+      "fn": 194,
+      "per_class": [
+        {
+          "class_id": 0,
+          "class": "deburring",
+          "images": 3,
+          "objects": 3,
+          "AP50": 0.0,
+          "AP50_95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 3
+        },
+        {
+          "class_id": 1,
+          "class": "inclusion",
+          "images": 35,
+          "objects": 74,
+          "AP50": 4.357830149212105e-06,
+          "AP50_95": 1.7431320596848418e-06,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 74
+        },
+        {
+          "class_id": 2,
+          "class": "rolled_pit",
+          "images": 7,
+          "objects": 16,
+          "AP50": 0.0,
+          "AP50_95": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 16
+        },
+        {
+          "class_id": 3,
+          "class": "silk_spot",
+          "images": 91,
+          "objects": 107,
+          "AP50": 0.059708422914442026,
+          "AP50_95": 0.01856400514869706,
+          "precision": 0.09876543209876543,
+          "recall": 0.29906542056074764,
+          "f1": 0.14849187935034802,
+          "tp": 32,
+          "fp": 292,
+          "fn": 75
+        },
+        {
+          "class_id": 4,
+          "class": "waist_folding",
+          "images": 26,
+          "objects": 26,
+          "AP50": 0.06041283555662782,
+          "AP50_95": 0.02312274221984294,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 26
+        }
+      ]
+    },
+    "historical_expected_metrics_modified": false
+  },
+  "inputs_after": {
+    "images": 1075,
+    "objects": 1444,
+    "dataset_fingerprint": "79af825766ce6bb402eaf5daea67ce223da58dc890a152fa6ed51e1774d33461",
+    "weights": {
+      "yolo_n": {
+        "checkpoint": "results/yolo_baseline-3/weights/best.pt",
+        "sha256": "75712e37567ad6ccf9a59090e7ff64652739d7b4659707aa9cb034012860a4ed",
+        "metadata": {}
+      },
+      "yolo_s": {
+        "checkpoint": "results/yolo_small/weights/best.pt",
+        "sha256": "97374540c49c5e68e51a493af0e4f9e8a19cab564286c1c72144fa9b7f7a9293",
+        "metadata": {}
+      },
+      "yolo_aug": {
+        "checkpoint": "results/yolo_augmented/weights/best.pt",
+        "sha256": "b9afa84b89ca87d69c0b58d49db4175d5bafa6283d393cb113b93692fdd69484",
+        "metadata": {}
+      },
+      "faster_rcnn": {
+        "checkpoint": "results/colab_results/content/results/faster_rcnn/model.pth",
+        "sha256": "0d7c90200d1bdb7ae618a5c9c0801d0921ce7f0d672c0e1cd9dfb3992bac96b7",
+        "metadata": {}
+      },
+      "ssd": {
+        "checkpoint": "results/colab_results/content/results/ssd/model.pth",
+        "sha256": "647d27170b9e118ce648c00717f2bcaa545b3774cd687abd4da58e8da5320149",
+        "metadata": {}
+      },
+      "detr": {
+        "checkpoint": "results/detr_fixed_20261005_202542_023635/best",
+        "sha256": "ac015252b9aaeae0bc6b850da01ae6c55da4c39d2a35e3b3aff55a82421db7a9",
+        "metadata": {
+          "config.json": "a37a028889472cec882f03684a5af91e4984a29827024147f36074843061b7fb",
+          "preprocessor_config.json": "c0da816333c0fc63a3799bd3f2f0179baf014520c5e47127423a16ea5ffcd6cd"
+        }
+      }
+    }
+  },
+  "inputs_modified": false
+}

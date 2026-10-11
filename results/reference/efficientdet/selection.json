@@ -1,0 +1,7 @@
+{
+  "best_epoch": 10,
+  "validation_mAP50_95": 0.07623556552904805,
+  "criterion": "maximum validation mAP50_95; earlier epoch on exact ties",
+  "test_used": false,
+  "checkpoint_sha256": "f1cab0db3033e86bb3d8d530e0a7e9249cda1aa47203502534fdcc9d684efff1"
+}

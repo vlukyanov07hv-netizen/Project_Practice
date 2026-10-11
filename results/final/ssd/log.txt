@@ -1,0 +1,9 @@
+Mode: eval
+Model: ssd
+Split: test
+Checkpoint SHA256: 647d27170b9e118ce648c00717f2bcaa545b3774cd687abd4da58e8da5320149
+mAP50: 0.03548509
+mAP50-95: 0.01115797
+Precision: 0.09876543
+Recall: 0.14159292
+F1: 0.11636364

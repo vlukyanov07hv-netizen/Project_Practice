@@ -1,0 +1,22 @@
+{
+  "version": "gpu-v1.1",
+  "backend": {
+    "cudnn_deterministic": true,
+    "cudnn_benchmark": false,
+    "cudnn_enabled": true,
+    "cudnn_allow_tf32": true,
+    "cuda_matmul_allow_tf32": false,
+    "float32_matmul_precision": "highest",
+    "deterministic_algorithms": false
+  },
+  "tensor_dtype": "float32",
+  "seed_per_model": 42,
+  "evidence": "results/reference/ssd/runtime_validation.json",
+  "scope": "Explicit reference settings; cuDNN determinism is enabled; global deterministic_algorithms remains False.",
+  "limit": "The exact repeat was verified on the same RTX 3050 / Torch 2.5.1+cu121 environment; cross-platform equality is not guaranteed.",
+  "decision_rule": "Keep the explicit existing pipeline settings, independently repeat them, then update only the proven SSD reference. No choice by best test mAP.",
+  "previous_ssd_mAP50": 0.023408482738243263,
+  "current_ssd_mAP50": 0.0354850895702933,
+  "weights_changed": false,
+  "training_performed": false
+}

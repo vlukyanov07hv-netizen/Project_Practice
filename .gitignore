@@ -1,0 +1,39 @@
+# Python environments and generated caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Data and checkpoints are attached to GitHub Releases
+data/raw/images/
+data/raw/labels/
+*.pt
+*.pth
+*.safetensors
+*.onnx
+*.zip
+release_assets/
+results/cache/
+results/runs/
+results/yolo_baseline*/
+results/yolo_small/
+results/yolo_augmented/
+results/colab_results/
+results/detr_fixed_*/
+results/efficientdet_train_*/
+results/efficientdet_assets/
+
+# Temporary files
+*.tmp
+*.log
+~$*
